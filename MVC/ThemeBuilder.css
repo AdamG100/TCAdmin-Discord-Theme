@@ -1,0 +1,162 @@
+/* This file is used to create ThemeBuilder.css when the theme is saved. It should only contain css to affects colors. */
+/* If your theme uses a different css make a copy of this file and place it in your theme's folder                     */
+HTML,
+BODY {
+    background-color: rgb(47, 49, 54);
+    color: rgb(220, 221, 222);
+}
+
+#main .header-text {
+    background-color: rgb(114, 137, 218);
+    color: #dcddde;
+}
+
+#sidebar fieldset:first-of-type legend {
+    background-color: rgb(114, 137, 218);
+    color: #dcddde;
+}
+
+a:link, a:visited {
+    color: rgb(114, 137, 218);
+}
+
+a:active, a:hover {
+    color: rgb(53, 86, 202);
+}
+
+.nav-fostrap li:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+    .nav-fostrap li:hover > a {
+        color: rgba(220, 221, 222, 0.9);
+    }
+
+.nav-fostrap li > a {
+    color: rgba(220, 221, 222, 0.5);
+}
+
+.nav-fostrap li ul.dropdown {
+    background-color: rgb(114, 137, 218);
+    border-color: rgb(114, 137, 218);
+}
+
+    .nav-fostrap li ul.dropdown li a {
+        color: #dcddde;
+    }
+
+    .nav-fostrap li ul.dropdown li:hover {
+        background-color: rgb(114, 137, 218);
+    }
+
+        .nav-fostrap li ul.dropdown li:hover a {
+            color: #dcddde;
+        }
+
+#sidebar > .links a:hover {
+    background-color: rgba(114,137,218,0.08);
+    border: 1px solid rgb(114, 137, 218);
+}
+
+.info-button:hover,
+.info-button {
+    background-color: rgb(222, 242, 248);
+    color: rgb(47, 100, 115);
+    background-image: unset;
+}
+
+.red-button:hover,
+.red-button {
+    background-color: rgb(247, 221, 220);
+    color: rgb(113, 43, 41);
+    background-image: unset;
+}
+
+.orange-button:hover,
+.orange-button {
+    background-color: rgb(252, 239, 220);
+    color: rgb(125, 90, 41);
+    background-image: unset;
+}
+
+.green-button:hover,
+.green-button {
+    background-color: rgb(222, 241, 222);
+    color: rgb(48, 96, 48);
+    background-image: unset;
+}
+
+.info-label {
+    color: ;
+}
+
+.red-label {
+    color: red;
+}
+
+.green-label {
+    color: green;
+}
+
+.orange-label {
+    color: orange;
+}
+
+.popup-script-loading-success {
+    color: green;
+}
+
+.popup-script-loading-failure {
+    color: red;
+}
+
+.k-i-cancel:before {
+    color: red;
+}
+
+.k-i-save:before {
+    color: green;
+}
+
+.k-i-unlock:before,
+.k-i-lock:before {
+    color: green;
+}
+
+.field-validation-error {
+    color: red;
+}
+
+.validation-summary-errors {
+    color: red;
+}
+
+#sidebar fieldset legend {
+    border-bottom: 1px solid rgb(114, 137, 218);
+}
+
+#footer #info {
+    border-top: 1px solid rgb(114, 137, 218);
+}
+
+.navbar-fostrap > img,
+.logo {
+    filter: invert(57%) sepia(43%) saturate(720%) hue-rotate(193deg) brightness(88%) contrast(92%);
+}
+
+@media only screen and (max-width:900px) {
+    .nav-fostrap,
+    .nav-bg-fostrap {
+        background-color: rgb(47, 49, 54);
+    }
+
+        .nav-bg-fostrap .title-mobile {
+            color: rgb(220, 221, 222);
+        }
+
+    #sidebar ul,
+    #sidebar {
+        background-color: rgb(47, 49, 54);
+    }
+}

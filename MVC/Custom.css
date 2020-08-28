@@ -1,0 +1,109 @@
+.nav-fostrap {
+    background-color: #202225;
+}
+
+.nav-fostrap li ul.dropdown {
+    background-color: #2f3136;
+    border-color: #2f3136;
+}
+
+.nav-fostrap li ul.dropdown li:hover {
+    background-color: rgb(114, 137, 218);
+    transition: 0.3s;
+}
+
+#header {
+    background-color: #202225;
+}
+
+a:link, a:visited {
+    color: #dcddde !important;
+}
+
+#sidebar fieldset:first-of-type legend {
+    background-color: #202225;
+    color: #dcddde;
+}
+
+#main .header-text {
+    background-color: #202225;
+    color: #dcddde;
+}
+
+.k-progressbar-horizontal {
+    width: 30em;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.k-progressbar {
+    color: #dcddde;
+    background-color: rgba(32, 34, 37, 0.9);
+}
+
+.k-switch-off .k-switch-container {
+    color: #dcddde;
+    background-color: #202225;
+}
+
+.k-switch-off .k-switch-container:hover {
+    color: #dcddde;
+    background-color: #202225;
+}
+
+
+.k-badge-info {
+    border-color: #7289DA;
+    color: #dcddde;
+    background-color: #7289DA;
+}
+
+#sidebar > .links a:hover {
+    background-color: #7289DA;
+    border: 1px solid #7289DA;
+    transition: 0.3s;
+}
+
+.k-breadcrumb .k-breadcrumb-link {
+    color: #dcddde;
+
+}
+
+.k-breadcrumb .k-breadcrumb-link:hover, .k-breadcrumb .k-breadcrumb-link.k-state-hover {
+    color: #dcddde;
+    background-color: #7289DA;
+}
+
+.k-breadcrumb .k-breadcrumb-root-link:hover, .k-breadcrumb .k-breadcrumb-root-link.k-state-hover {
+    background-color: #7289DA;
+}
+
+.green-button, .orange-button, .red-button {
+    background-color: #7289DA;
+    color: #dcddde;
+    border-color: #4a67cf;
+    background-image: unset;
+}
+
+.green-button:hover, .orange-button:hover, .red-button:hover{
+    background-color: #5470d2;
+    color: #dcddde;
+    border-color: #4a67cf;
+    background-image: unset;
+}
+
+.k-button {
+    border-color: #4a67cf;
+    color: #dcddde;
+    background-color: #7289da;
+}
+
+.k-tabstrip-items .k-item:hover, .k-tabstrip-items .k-item.k-state-hover {
+    border-color: #7289DA;
+    color: #dcddde;
+    transition: 0.3s;
+}
+
+#reinstallButton {
+    margin-bottom: 15px;
+}
