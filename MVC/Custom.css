@@ -107,3 +107,57 @@ a:link, a:visited {
 #reinstallButton {
     margin-bottom: 15px;
 }
+
+textarea:hover, textarea:focus {
+    background-color: rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid #7289DA !important;
+    transition: 0.3s;
+}
+
+.k-textbox:focus, .k-textbox.k-state-focus, .k-textbox.k-state-focused, .k-textarea:focus, .k-textarea.k-state-focus, .k-textarea.k-state-focused, .k-numerictextbox:focus {
+    border-color: #7289DA;
+    color: #dcddde;
+    background-color: #2f3136;
+    box-shadow: none !important;
+    transition: 0.3s;
+}
+
+.k-textbox:hover, .k-textbox.k-state-hover, .k-textarea:hover, .k-textarea.k-state-hover {
+    border-color: #7289DA;
+    color: #dcddde;
+    background-color: rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.k-i-save:before {
+    color: #dcddde;
+}
+
+.k-i-cancel:before {
+    color: #dcddde;
+}
+
+.k-i-upload:before {
+    color: #dcddde !important;
+}
+
+.k-i-folder-add:before {
+    color: #dcddde !important;
+}
+
+.k-window-titlebar .k-window-actions {
+    padding-top: 13px;
+}
+
+.k-upload .k-dropzone .k-upload-status, .k-upload .k-dropzone .k-dropzone-hint{
+    color: #dcddde !important;
+}
+
+.k-file-size {
+    color: #dcddde !important;
+}
+
+.k-upload .k-file-progress .k-progress {
+    background-color: #7289DA;
+}
+

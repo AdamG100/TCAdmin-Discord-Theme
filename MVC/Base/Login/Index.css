@@ -1,5 +1,5 @@
 ﻿BODY {
-    background-image: url("https://i.imgur.com/wZnqv5w.jpg");
+    background-image: url("https://media.hyperlayer.co.za/themes/y1ostvqnr4711.jpg");
     color: #dcddde;
 }
 
@@ -204,7 +204,7 @@ a:hover {
 }
 
 .k-i-cancel:before {
-    color: red;
+    color: #dcddde;
 }
 
 a:active, a:hover {
@@ -215,3 +215,6 @@ a:link, a:visited {
     color: #7289DA;
 }
 
+.k-i-unlock:before, .k-i-lock:before {
+    color: #dcddde;
+}
