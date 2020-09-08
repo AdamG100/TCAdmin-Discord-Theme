@@ -17,7 +17,7 @@
 }
 
 a:link, a:visited {
-    color: #dcddde !important;
+    color: #dcddde;
 }
 
 #sidebar fieldset:first-of-type legend {
