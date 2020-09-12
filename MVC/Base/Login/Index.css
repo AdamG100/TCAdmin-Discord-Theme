@@ -1,5 +1,9 @@
 ﻿BODY {
-    background-image: url("https://media.hyperlayer.co.za/themes/y1ostvqnr4711.jpg");
+    background: url("https://media.hyperlayer.co.za/themes/y1ostvqnr4711.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     color: #dcddde;
 }
 

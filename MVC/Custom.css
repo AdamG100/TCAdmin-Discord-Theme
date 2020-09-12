@@ -1,5 +1,7 @@
 .nav-fostrap {
     background-color: #202225;
+
+    
 }
 
 .nav-fostrap li ul.dropdown {
@@ -160,4 +162,3 @@ textarea:hover, textarea:focus {
 .k-upload .k-file-progress .k-progress {
     background-color: #7289DA;
 }
-
