@@ -162,3 +162,7 @@ textarea:hover, textarea:focus {
 .k-upload .k-file-progress .k-progress {
     background-color: #7289DA;
 }
+
+#dbAllowinner, #dbLocationsinner, #dbConfig, #dbManage {
+    color: #dcddde !important;
+}
