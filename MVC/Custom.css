@@ -100,6 +100,27 @@ a:link, a:visited {
     background-color: #7289da;
 }
 
+.k-toolbar {
+    border-color: #2f3136;
+}
+
+.k-card, .k-card-header {
+    border-color: #2f3136;
+    color: #dcddde;
+    background-color: #202225;
+}
+
+.k-flat {
+    color: #dcddde !important;
+}
+
+.k-flat:hover{
+    border-color: #4a67cf !important;
+    color: #dcddde !important;
+    background-color: #7289da !important;
+    transition: 0.3s !important;
+}
+
 .k-tabstrip-items .k-item:hover, .k-tabstrip-items .k-item.k-state-hover {
     border-color: #7289DA;
     color: #dcddde;
